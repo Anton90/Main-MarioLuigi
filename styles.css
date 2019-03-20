@@ -1,4 +1,4 @@
- .fa {
+.fa {
   padding: 20px;
   font-size: 30px;
   width: 50px;
@@ -13,9 +13,12 @@ a:visited{
   color: black;
 }
 
-h2 {
+h2{
   font-family: 'Cabin Sketch', cursive;
+  text-transform: uppercase;
+  font-weight: 700;
 }
+
 h3, p, a, table, address {
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
@@ -24,6 +27,44 @@ h3, p, a, table, address {
 ul a {
   font-size: 24px;
 }
+
+/* STYLING ABOUT */
+
+.about { 
+  background-color: white; 
+  } 
+  
+.about h2 {
+    font-family: 'Cabin Sketch', cursive;
+    }
+
+.about h3 {
+    font-family: 'Catamaran', sans-serif;
+    color: #be4729;
+    }
+
+.about p {
+    font-family: 'Catamaran', sans-serif;
+    }
+
+
+/* BLOCKS ABOUT */
+
+.about {
+  background-color: #ffffff;
+}
+
+.about .row {
+  background-color: #ffffff;
+}
+
+.about .img-left {
+  max-width: 100%;
+  height: auto;
+}   
+
+
+/* MENU STYLING */
 
 .menu {
     background-color: #BE4729;
@@ -71,37 +112,4 @@ ul a {
     color: #BE4729;
 }
 
-/* BASIC STYLING */
 
-.about { 
-  background-color: white; 
-  } 
-  
-.about h2 {
-    font-family: 'Cabin Sketch', cursive;
-    }
-
-.about h3 {
-    font-family: 'Catamaran', sans-serif;
-    color: #be4729;
-    }
-
-.about p {
-    font-family: 'Catamaran', sans-serif;
-    }
-    
-
-/* BLOCKS */
-
-.about {
-  background-color: #ffffff;
-}
-
-.about .row {
-  background-color: #ffffff;
-}
-
-.about .img-left {
-  max-width: 100%;
-  height: auto;
-}
