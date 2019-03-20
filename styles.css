@@ -107,11 +107,18 @@ ul a {
 
 .contact {
   background-color: #AFC8AD; 
+  padding: 10px;
 }
+
 .contact h2 {
   font-size: 30px;
 }
 
 .contact h3 {
   font-size: 17px;
+}
+
+.btn {
+  background-color: #AFC8AD ;
+  color: black;
 }
