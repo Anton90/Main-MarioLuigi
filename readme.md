@@ -1,10 +1,3 @@
-    MARIO & LUIGI
-*********************
-
-https://anton90.github.io/Main-MarioLuigi/main.html
-
-
-
 ────▄████▄▄    
 ───▄▀█▀▐└─┐  
 ───█▄▐▌▄█▄┘  
@@ -12,7 +5,7 @@ https://anton90.github.io/Main-MarioLuigi/main.html
 ▄███▒██▒███▄  
 ▒▒█▄▒▒▒▒▄█▒▒  
 ──▒▒▒▀▀▒▒▒  
-▄███────███▄  
+ ▄███ ─███▄  
 
 
 
@@ -22,6 +15,7 @@ https://anton90.github.io/Main-MarioLuigi/main.html
 
 * Company name: Mario & Luigi
 * Activity: Italian restaurant
+* Link: https://anton90.github.io/Main-MarioLuigi/main.html
 
 ## Collaborators and tasks
 
