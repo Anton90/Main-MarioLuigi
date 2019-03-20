@@ -73,35 +73,35 @@ ul a {
 
 /* BASIC STYLING */
 
-html, body { 
+.about { 
   background-color: white; 
   } 
   
-h2 {
+.about h2 {
     font-family: 'Cabin Sketch', cursive;
     }
 
-h3 {
+.about h3 {
     font-family: 'Catamaran', sans-serif;
     color: #be4729;
     }
 
-p {
+.about p {
     font-family: 'Catamaran', sans-serif;
     }
     
 
 /* BLOCKS */
 
-.container {
+.about {
   background-color: #ffffff;
 }
 
-.row {
+.about .row {
   background-color: #ffffff;
 }
 
-.img-left {
+.about .img-left {
   max-width: 100%;
   height: auto;
 }
