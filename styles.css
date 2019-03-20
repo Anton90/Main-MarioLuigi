@@ -7,30 +7,44 @@
   text-align: center;
   text-decoration: none;
 }
+a:link {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
 
 .nav-item a:link{
-  color: black;
   font-family: "Catamaran",sans-serif;
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-
 }
 
-.nav-item a:visited{
-  color: black;
+a:visited{
+  color: #2f2f2f;
+  text-decoration:none;
 }
 
-h2{
+h2 {
   font-family: 'Cabin Sketch', cursive;
   text-transform: uppercase;
+  font-size: 60px;
   font-weight: 700;
 }
 
-h3, p, a, table, address {
+p, a, table, address {
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
 }
+
+h3 {
+  font-family: "Catamaran", sans-serif;
+  font-size: 26px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 
 ul a {
   font-size: 24px;
@@ -38,25 +52,9 @@ ul a {
 
 /* STYLING ABOUT */
 
-.about { 
-  background-color: white; 
-  } 
-  
-.about h2 {
-    font-family: 'Cabin Sketch', cursive;
-    }
-
 .about h3 {
-    font-family: 'Catamaran', sans-serif;
     color: #be4729;
     }
-
-.about p {
-    font-family: 'Catamaran', sans-serif;
-    }
-
-
-/* BLOCKS ABOUT */
 
 .about {
   background-color: #ffffff;
@@ -77,21 +75,6 @@ ul a {
 .menu {
     background-color: #BE4729;
     color: white;
-}
-
-.menu h2 {
-    font-family: "Cabin Sketch", cursive;
-    font-size: 60px;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.menu h3 {
-    font-family: "Catamaran", sans-serif;
-    font-size: 30px;
-    font-weight: 900;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 .menu ul {
@@ -120,6 +103,15 @@ ul a {
     color: #BE4729;
 }
 
+/*Contact*/
+
 .contact {
   background-color: #AFC8AD; 
+}
+.contact h2 {
+  font-size: 30px;
+}
+
+.contact h3 {
+  font-size: 17px;
 }
