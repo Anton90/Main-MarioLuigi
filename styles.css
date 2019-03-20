@@ -1,3 +1,5 @@
+/* STYLING NAVBAR */
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -6,10 +8,16 @@
   text-decoration: none;
 }
 
-a:link{
+.nav-item a:link{
   color: black;
+  font-family: "Catamaran",sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+
 }
-a:visited{
+
+.nav-item a:visited{
   color: black;
 }
 
