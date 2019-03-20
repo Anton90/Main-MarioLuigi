@@ -1,0 +1,26 @@
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:link{
+  color: black;
+}
+a:visited{
+  color: black;
+}
+
+h2{
+  font-family: 'Cabin Sketch', cursive;
+}
+h3, p, a, table, address {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+}
+
+ul a {
+  font-size: 24px;
+}
