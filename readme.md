@@ -1,6 +1,3 @@
-    MARIO & LUIGI
-*********************
-
 https://anton90.github.io/Main-MarioLuigi/main.html
 
 
@@ -12,7 +9,7 @@ https://anton90.github.io/Main-MarioLuigi/main.html
 ▄███▒██▒███▄  
 ▒▒█▄▒▒▒▒▄█▒▒  
 ──▒▒▒▀▀▒▒▒  
-▄███────███▄  
+ ▄██ ──███▄  
 
 
 
