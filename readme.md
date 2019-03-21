@@ -59,7 +59,7 @@
 
 * How to turn several pages into one
 * How to work with git push/pull
-* Pik (Elise): can recognize the colors on a website
+* Pick (Elise): can recognize the colors on a website
 
 ## Difficulties
 
