@@ -63,6 +63,7 @@ h3 {
   font-weight: 900;
   text-transform: uppercase;
   letter-spacing: 1px;
+  color:#be4729;
 }
 
 
@@ -80,7 +81,7 @@ ul a {
 /* STYLING ABOUT */
 
 .about h3 {
-    color: #be4729;
+    color: 
     }
 
 .about {
@@ -144,8 +145,15 @@ ul a {
 
 .foodtruck button {
   font-family: "Catamaran", sans-serif;
+  padding: 10px 20px 10px 20px;
+  border-radius: 30px;
+  font-size: 16px;
+  color:white;
 } 
-
+.foodtruck h3 {
+  color:#AFC8AD;
+  padding-top: 10px;
+}
 /*Contact*/
 
 .contact {
@@ -159,6 +167,7 @@ ul a {
 
 .contact h3 {
   font-size: 17px;
+  color:black;
 }
 
 .btn {
