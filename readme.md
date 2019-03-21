@@ -19,11 +19,11 @@
 
 ## Collaborators / tasks
 
-| Elise | Alexander | Anton | Emilie |
-| *** | *** | *** | *** |
-| Logo | Navbar | Foodtruck | About us |
-| Food menu | Contact | Merging | Parallax |
-| Design | Parallax | Adjustments | Readme |
+| Elise | Alexander | Anton | Emilie |  
+| *** | *** | *** | *** |  
+| Logo | Navbar | Foodtruck | About us |  
+| Food menu | Contact | Merging | Parallax |  
+| Design | Parallax | Adjustments | Readme |  
 
 ## Schedule
 
