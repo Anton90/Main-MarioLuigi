@@ -248,7 +248,6 @@ hr {
 
 /*Parralax*/
 
-@media screen and (max-width: 1024px) {
 .parallax {
 background-image: url('images/restaurant.jpg');
 width: 100%;
@@ -258,11 +257,9 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-position: center top !important;
-  -webkit-background-size: cover !important;
-  -moz-background-size: cover !important;
 background-size: cover !important;
 }
-}
+
 
 
 
