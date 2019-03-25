@@ -81,7 +81,7 @@ ul a {
 /* STYLING ABOUT */
 
 .about h3 {
-    color: 
+    color: #be4729; 
     }
 
 .about {
@@ -104,6 +104,10 @@ ul a {
     background-color: #BE4729;
     color: white;
 }
+
+.menu h3 {
+  color: white; 
+  }
 
 .menu ul {
     font-family: "Catamaran", sans-serif;
@@ -131,6 +135,10 @@ ul a {
     color: #BE4729;
 }
 
+.pb-4 {
+  padding-left: 25px;
+}
+
 /* Foodtruck */
 
 .foodtruck {
@@ -148,10 +156,9 @@ ul a {
   padding: 10px 20px 10px 20px;
   border-radius: 30px;
   font-size: 16px;
-  color:white;
 } 
 .foodtruck h3 {
-  color:#AFC8AD;
+  color:#2f2f2f;
   padding-top: 10px;
 }
 /*Contact*/
@@ -173,6 +180,7 @@ ul a {
 .btn {
   background-color: #AFC8AD ;
   color: black;
+  border-radius: 30px;
 }
 
 @media (min-width: 1200px) {
@@ -196,4 +204,16 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+/*footer footer*/
+.copyright {
+  height:60px;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
 }
