@@ -259,6 +259,11 @@ background-size: cover;
   }
 }
 
+.hide-mobile {
+  display: none;
+}
+
+
 
 /*footer footer*/
 
