@@ -6,25 +6,18 @@ body,html {
 
 /* STYLING NAVBAR */
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-.nav {
+.navbar {
   height: 100px;
 }
 
-.nav-link {
+.nav-item {
   margin:0;
   padding:0;
-  transform: translateY(-20px);
+  transform: translateY(30px);
 }
 
 .logo {
-  transform: translateY(30px)rotate(5deg);
+  transform: translateY(60px)rotate(5deg);
 }
 
 a:link {
@@ -38,6 +31,11 @@ a:link {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.nav-item a:hover{
+  color: #AFC8AD !important;
+  text-decoration:none;
 }
 
 a:visited{
@@ -195,6 +193,14 @@ hr {
 table {
   display: flex;
   justify-content: center;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*Parralax*/
