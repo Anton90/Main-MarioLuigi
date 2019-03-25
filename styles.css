@@ -105,6 +105,10 @@ ul a {
     color: white;
 }
 
+.menu h3 {
+  color: white; 
+  }
+
 .menu ul {
     font-family: "Catamaran", sans-serif;
     font-size: 16px;
