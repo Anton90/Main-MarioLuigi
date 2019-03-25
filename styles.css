@@ -183,6 +183,10 @@ ul a {
   border-radius: 30px;
 }
 
+hr {
+  width:50%;
+  border: 2px solid white;
+}
 @media (min-width: 1200px) {
 .container {
     max-width: 1200px;
