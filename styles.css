@@ -105,6 +105,10 @@ ul a {
     color: white;
 }
 
+.menu h3 {
+  color: white; 
+  }
+
 .menu ul {
     font-family: "Catamaran", sans-serif;
     font-size: 16px;
@@ -200,4 +204,16 @@ background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
+}
+
+/*footer footer*/
+.copyright {
+  height:60px;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
 }
