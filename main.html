@@ -20,15 +20,20 @@
 </head>
 
 <body>
-  <div class="container">
-    <ul class="nav justify-content-center nav-fill align-items-center">
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo01">
+    <ul class="navbar-nav m-auto mt-2 mt-lg-0 align-items-center">
       <li class="nav-item">
         <a class="nav-link text-body" href="#about">About</a>
       </li>
       <li class="nav-item">
         <a class="nav-link text-body" href="#menu">Menu</a>
       </li>
-      <li class="nav-item logo">
+      <li class="nav-item logo d-none d-lg-block">
         <a class="nav-link" href="#"><img src="images/mario-luigi-logo-500px-transp.png" height="200" width="200"></a>
       </li>
       <li class="nav-item">
@@ -39,6 +44,8 @@
       </li>
     </ul>
   </div>
+</nav>
+
 
 <!--header image-->
 <div class="headerimage">
@@ -47,10 +54,10 @@
 <div class="container about"><!--Container starts-->
 
 <div class="container about" id="about"><!--Container starts-->
-    
+
     <div class="row main py-5"><!--Main row starts-->
 
-      <div class="col-md-5 left d-flex align-items-end pb-4"><img class="img-fluid img-left w-100" src="images/group.jpg" alt="Teamwork"><!--Left column starts-->
+      <div class="col-md-5 left d-flex align-items-end pb-4"><img class="img-fluid img-left w-100 zoom" src="images/group.jpg" alt="Teamwork"><!--Left column starts-->
       </div><!--Left column ends-->
 
 		<div class="col-md-1 middle"></div>
@@ -358,7 +365,7 @@
           </table>
         </div>
   </div>
-      
+
   <div class="col-md-12 col-lg-4 text-center">
     <br>
           <h3>Contact us:</h3>
