@@ -21,7 +21,7 @@ body,html {
 }
 
 .logomobile {
-  height: 150px;  
+  height: 200px;  
 }
 
 a:link {
@@ -42,10 +42,26 @@ a:link {
   text-decoration:none;
 }
 
-a:visited{
+a:visited {
   color: #2f2f2f;
   text-decoration:none;
 }
+
+.navbar-nav hr {
+  border: 2px solid #AFC8AD;
+  margin:0;
+}
+
+@media screen and (max-width: 992px) {
+  
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.7);
+    z-index:1;
+    transform: translateY(65px)
+  }
+}
+
+/* STYLING GENERAL */
 
 h2 {
   font-family: 'Cabin Sketch', cursive;
