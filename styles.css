@@ -270,10 +270,10 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-@media only (max-device-width: 700px) {
-.hide-mobile {
-  display: none;
-}
+@media (max-width: 900px) {
+    .generate-sections-container.enable-parallax {
+        background-position: center top !important;
+    }
 }
 
 
