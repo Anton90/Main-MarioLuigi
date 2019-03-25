@@ -256,14 +256,12 @@ height: 30%;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
+background-position: center top !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+background-size: cover !important;
 }
 
-@media only screen and (max-width:749px) {
-  .parallax {
-    background-repeat: no-repeat;
-  }
-}
 
 
 /*footer footer*/
