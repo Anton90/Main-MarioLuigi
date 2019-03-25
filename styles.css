@@ -197,3 +197,15 @@ background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 }
+
+/*footer footer*/
+.copyright {
+  height:60px;
+  background-color: #2f2f2f;
+  color: white;
+}
+
+.copyright p {
+  margin: 0;
+  font-size: 14px;
+}
