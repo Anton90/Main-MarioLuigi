@@ -6,25 +6,22 @@ body,html {
 
 /* STYLING NAVBAR */
 
-.fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 50px;
-  text-align: center;
-  text-decoration: none;
-}
-.nav {
+.navbar {
   height: 100px;
 }
 
-.nav-link {
+.nav-item {
   margin:0;
   padding:0;
-  transform: translateY(-20px);
+  transform: translateY(30px);
 }
 
 .logo {
-  transform: translateY(30px)rotate(5deg);
+  transform: translateY(60px)rotate(5deg);
+}
+
+.logomobile {
+  height: 150px;  
 }
 
 a:link {
@@ -38,6 +35,11 @@ a:link {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
+}
+
+.nav-item a:hover{
+  color: #AFC8AD !important;
+  text-decoration:none;
 }
 
 a:visited{
@@ -97,6 +99,29 @@ ul a {
   height: auto;
 }   
 
+.zoom {      
+-webkit-transition: all 0.35s ease-in-out;    
+-moz-transition: all 0.35s ease-in-out;    
+transition: all 0.35s ease-in-out;     
+cursor: -webkit-zoom-in;      
+cursor: -moz-zoom-in;      
+cursor: zoom-in;  
+}     
+
+.zoom:hover,  
+.zoom:active,   
+.zoom:focus {
+/**adjust scale to desired size, 
+add browser prefixes**/
+-ms-transform: scale(1.3);    
+-moz-transform: scale(1.3);  
+-webkit-transform: scale(1.3);  
+-o-transform: scale(1.3);  
+transform: scale(1.3);    
+position:relative;      
+z-index:100;  
+}
+
 
 /* MENU STYLING */
 
@@ -107,7 +132,7 @@ ul a {
 
 .menu h3 {
   color: white; 
-  }
+}
 
 .menu ul {
     font-family: "Catamaran", sans-serif;
@@ -127,7 +152,6 @@ ul a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-
 }
 
 .download a:hover {
@@ -142,7 +166,7 @@ ul a {
 /* Foodtruck */
 
 .foodtruck {
-  width: 120%;
+  width: 100%;
   margin: auto;
 }
 
@@ -191,10 +215,19 @@ hr {
 .container {
     max-width: 1200px;
 }
+}
 
-table {
-  display: flex;
-  justify-content: center;
+.tablehours {
+  display: inline-table;
+  text-align: left;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
 }
 
 /*Parralax*/
@@ -210,7 +243,25 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+.parallax {
+background-image: url('images/restaurant.jpg');
+height: 30%;
+
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+@media only screen and (max-device-width: 1366px) {
+.parallax {
+  background-attachment: scroll;
+  }
+}
+
+
 /*footer footer*/
+
 .copyright {
   height:60px;
   background-color: #2f2f2f;
@@ -221,3 +272,4 @@ background-size: cover;
   margin: 0;
   font-size: 14px;
 }
+
