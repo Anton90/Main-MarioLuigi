@@ -81,7 +81,7 @@ ul a {
 /* STYLING ABOUT */
 
 .about h3 {
-    color: 
+    color: #be4729; 
     }
 
 .about {
@@ -148,10 +148,9 @@ ul a {
   padding: 10px 20px 10px 20px;
   border-radius: 30px;
   font-size: 16px;
-  color:white;
 } 
 .foodtruck h3 {
-  color:#AFC8AD;
+  color:#2f2f2f;
   padding-top: 10px;
 }
 /*Contact*/
@@ -173,6 +172,7 @@ ul a {
 .btn {
   background-color: #AFC8AD ;
   color: black;
+  border-radius: 30px;
 }
 
 @media (min-width: 1200px) {
