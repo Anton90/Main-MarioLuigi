@@ -54,4 +54,5 @@ Design | Parallax | Adjustments | Readme
 ## Difficulties
 
 * Git push/pull
+* Parallax doesn't work well in the mobile version of Chrome (we haven't found a fix yet)
 
