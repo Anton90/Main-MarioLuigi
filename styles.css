@@ -190,10 +190,11 @@ hr {
 .container {
     max-width: 1200px;
 }
+}
 
-table {
-  display: flex;
-  justify-content: center;
+.tablehours {
+  display: inline-table;
+  text-align: left;
 }
 
 /*Parralax*/
@@ -220,3 +221,4 @@ background-size: cover;
   margin: 0;
   font-size: 14px;
 }
+
