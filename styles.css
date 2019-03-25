@@ -107,7 +107,7 @@ ul a {
 
 .menu h3 {
   color: white; 
-  }
+}
 
 .menu ul {
     font-family: "Catamaran", sans-serif;
@@ -127,7 +127,6 @@ ul a {
     font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
-
 }
 
 .download a:hover {
