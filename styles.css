@@ -20,6 +20,10 @@ body,html {
   transform: translateY(60px)rotate(5deg);
 }
 
+.logomobile {
+  height: 150px;  
+}
+
 a:link {
   color: black;
   font-weight: 500;
